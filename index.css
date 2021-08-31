@@ -1,3 +1,7 @@
+body * {
+  border: 1px solid red; /** For Development **/
+}
+
 body {
   font-family: 'Roboto Mono', monospace;
 }
@@ -12,6 +16,21 @@ a {
 
 footer {
   background: #f9e7dc;
+}
+
+header img {
+  border-radius: 100%;
+}
+
+.navigation {
+  display: flex;
+  align-content: space-around;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .plan-your-visit {
