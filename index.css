@@ -1,25 +1,5 @@
-body * {
-  border: 1px solid red; /** For Development **/
-}
-
 body {
   font-family: 'Roboto Mono', monospace;
-}
-
-h1 {
-  font-family: 'Chelsea Market', cursive;
-}
-
-a {
-  color: white;
-}
-
-footer {
-  background: #f9e7dc;
-}
-
-header img {
-  border-radius: 100%;
 }
 
 .navigation {
@@ -31,6 +11,8 @@ header img {
   display: inline-block;
   padding: 1rem;
   border-radius: 1rem;
+  color: white;
+  text-decoration: none;
 }
 
 .plan-your-visit {
@@ -48,4 +30,20 @@ header img {
 .main-text-body {
   background: #ddb9a3;
   color: white;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+header img {
+  border-radius: 100%;
+}
+
+footer {
+  background: #f9e7dc;
+}
+
+section {
+  margin: 0 auto;
 }
