@@ -5,3 +5,28 @@ body {
 h1 {
   font-family: 'Chelsea Market', cursive;
 }
+
+a {
+  color: white;
+}
+
+footer {
+  background: #f9e7dc;
+}
+
+.plan-your-visit {
+  background: #ff764e;
+}
+
+.learn-about-the-park {
+  background: #5ed3eb;
+}
+
+.get-involved {
+  background: #ffcd69;
+}
+
+.main-text-body {
+  background: #ddb9a3;
+  color: white;
+}
