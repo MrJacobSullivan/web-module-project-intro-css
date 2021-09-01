@@ -133,8 +133,29 @@ h1 {
   padding: 1.5% 0;
 }
 
+.secondary {
+  text-align: center;
+  width: 25%;
+}
+
+.secondary div {
+  display: inline-block;
+}
+
 .secondary div img {
-  width: 4rem;
+  width: 50%;
+}
+
+.secondary p {
+  font-size: 1.9rem;
+}
+
+.secondary .first {
+  margin: 2%;
+}
+
+.secondary .second {
+  margin: 15% 0 25%;
 }
 
 footer {
