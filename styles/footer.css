@@ -1,0 +1,20 @@
+/* Image Before Footer */
+
+.before-footer {
+  background-image: url('../assets/footer_img.jpg');
+  background-position: 0% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.before-footer div {
+  display: inline-block;
+  height: 32rem;
+  width: 100vw;
+}
+
+/* Footer */
+
+footer {
+  background: #f9e7dc;
+}

@@ -1,79 +1,9 @@
 /* CSS Reset by Eric Meyer */
 /* Taken from https://meyerweb.com/eric/tools/css/reset/ */
-@import url('./reset.css');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  max-width: 100%;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  color: #4f4f4f;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-span {
-  font-weight: bold;
-}
-
-section {
-  margin: 0 auto;
-}
-
-/* Navigation (for both header nav and footer nav) */
-
-nav {
-  margin: 0 auto;
-  text-align: center;
-  width: 90%;
-}
-
-nav a {
-  border-radius: 2rem;
-  color: white;
-  display: inline-block;
-  font-size: 2rem;
-  margin: 2% 0;
-  padding: 1% 0;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.5s;
-  width: 15%;
-}
-
-nav a:hover {
-  filter: brightness(0.85);
-}
-
-.orange {
-  background: #ff764e;
-  margin-right: 5%;
-}
-
-.blue {
-  background: #5ed3eb;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.yellow {
-  background: #ffcd69;
-  margin-left: 5%;
-}
-
-/* Header */
-
-header nav {
-  margin-bottom: 2%;
-}
+@import url('./stylse/reset.css');
+@import url('./styles/base.css');
+@import url('./styles/nav.css');
+@import url('./styles/footer.css');
 
 /* Headline */
 
@@ -176,25 +106,4 @@ h1 {
 
 .secondary .second {
   margin: 15% 0 25%;
-}
-
-/* Image Before Footer */
-
-.before-footer {
-  background-image: url('./assets/footer_img.jpg');
-  background-position: 0% 20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.before-footer div {
-  display: inline-block;
-  height: 32rem;
-  width: 100vw;
-}
-
-/* Footer */
-
-footer {
-  background: #f9e7dc;
 }
