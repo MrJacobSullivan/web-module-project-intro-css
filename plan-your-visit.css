@@ -1,5 +1,1 @@
-/* CSS Reset by Eric Meyer */
-/* Taken from https://meyerweb.com/eric/tools/css/reset/ */
-@import url('./stylse/reset.css');
-@import url('./styles/nav.css');
-@import url('./styles/footer.css');
+@import url('./styles/common.css');
