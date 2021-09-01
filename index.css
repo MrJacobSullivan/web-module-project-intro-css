@@ -1,49 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+
+  border: 1px solid red;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
+  color: #4f4f4f;
   font-family: 'Roboto Mono', monospace;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
   margin: 0 auto;
   width: 80%;
+  text-align: center;
+
+  background: purple;
 }
 
 nav a {
-  border-radius: 1.2rem;
+  border-radius: 1.25rem;
   color: white;
   display: inline-block;
-  font-size: 1.2rem;
-  margin: 2rem;
-  padding: 1rem;
+  font-size: 2.25rem;
+  margin: 4%;
+  padding: 1.75%;
   text-align: center;
   text-decoration: none;
-  width: 10%;
+  width: 15%;
+
+  background: green;
 }
 
-.plan-your-visit {
+.orange {
   background: #ff764e;
 }
 
-.learn-about-the-park {
+.blue {
   background: #5ed3eb;
 }
 
-.get-involved {
+.yellow {
   background: #ffcd69;
-}
-
-.main-text-body {
-  background: #ddb9a3;
-  color: white;
 }
 
 h1 {
   font-family: 'Chelsea Market', cursive;
+  font-size: 3rem;
 }
 
-header img {
+section.headline {
+  /* background: purple; */
+  width: 80%;
+}
+
+section.headline div.left img {
   border-radius: 100%;
+  width: 25%;
+}
+
+section.headline div.right {
+  background: green;
+}
+
+section.main-text-body {
+  background: #ddb9a3;
+  color: white;
 }
 
 footer {
