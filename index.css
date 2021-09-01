@@ -28,7 +28,7 @@ span {
 
 nav {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
@@ -63,9 +63,27 @@ header nav {
   margin-bottom: 2%;
 }
 
+/* Headline */
+
 .headline {
+  /* background: purple; */
+  width: 90%;
+  font-size: 2rem;
   position: relative;
   text-align: center;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 6rem;
+}
+
+.headline div.right {
+  background: green;
+}
+
+.headline div.right p {
+  padding: 1.5%;
 }
 
 .left,
@@ -74,8 +92,8 @@ header nav {
 }
 
 .left {
-  width: 30%;
-  margin-left: 5%;
+  width: 25%;
+  /* margin-left: 5%; */
 }
 
 .left img {
@@ -83,32 +101,40 @@ header nav {
 }
 
 .right {
-  width: 55%;
-  margin-left: 5%;
+  width: 65%;
+  /* margin-left: 2%; */
 }
 
 .right div {
   position: absolute;
-  top: 35%;
+  top: 25%;
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Chelsea Market', cursive;
-  font-size: 5rem;
+.right .smaller {
+  display: inline-block;
+  width: 60%;
 }
 
-section.headline {
-  /* background: purple; */
-  width: 80%;
-}
+/* Primary Body Content */
 
-section.headline div.right {
-  background: green;
-}
-
-section.main-text-body {
+.primary {
   background: #ddb9a3;
   color: white;
+  width: 95%;
+  font-size: 2.5rem;
+  padding: 0 1%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.primary p {
+  margin: 1%;
+  padding: 1.5% 0;
+}
+
+.secondary div img {
+  width: 4rem;
 }
 
 footer {
