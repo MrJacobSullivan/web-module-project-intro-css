@@ -8,7 +8,7 @@
   margin: 0;
   max-width: 100%;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -30,38 +30,42 @@ nav {
   margin: 0 auto;
   width: 80%;
   text-align: center;
-
-  background: purple;
 }
 
 nav a {
   border-radius: 1.25rem;
   color: white;
   display: inline-block;
-  margin: 5% 10%;
   padding: 1% 0;
+  margin: 2% 0;
   text-align: center;
   text-decoration: none;
-  width: 10%;
-
-  background: green;
+  width: 15%;
 }
 
 .orange {
   background: #ff764e;
+  margin-right: 5%;
 }
 
 .blue {
   background: #5ed3eb;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .yellow {
   background: #ffcd69;
+  margin-left: 5%;
+}
+
+header nav {
+  margin-bottom: 2%;
 }
 
 .headline {
-  text-align: center;
   position: relative;
+  text-align: center;
 }
 
 .left,
