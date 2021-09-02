@@ -1,1 +1,45 @@
 @import url('./styles/common.css');
+
+h1 {
+  font-size: 7rem;
+  margin: 0 auto;
+}
+
+.headline {
+  padding-top: 5%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.headline p {
+  padding: 1%;
+}
+
+.content {
+  width: 65%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.content p {
+  padding: 2%;
+}
+
+.highlight {
+  background: #ddb9a3;
+  color: white;
+  margin: 1% 15% 1% 5%;
+  padding: 1%;
+  transition: 0.5s;
+}
+
+.highlight:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2), 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.signoff {
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+}
